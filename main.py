@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_community.utilities import SQLDatabase
-#Use load_dotenv() from dotenv to extract details
+
 load_dotenv()
 connection_string=os.getenv('DATABASE_URL')
 print(connection_string)
